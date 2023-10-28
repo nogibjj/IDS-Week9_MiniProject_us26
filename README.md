@@ -1,47 +1,8 @@
-# GitHub Actions Matrix Build that tests more than one than one version of Python
-
-[![Multiple Python Versions](https://github.com/nogibjj/IDS-Week4_MiniProject_us26/actions/workflows/Matrix_Build.yml/badge.svg)](https://github.com/nogibjj/IDS-Week4_MiniProject_us26/actions/workflows/Matrix_Build.yml)
-[![Install](https://github.com/nogibjj/IDS-Week4_MiniProject_us26/actions/workflows/install.yml/badge.svg)](https://github.com/nogibjj/IDS-Week4_MiniProject_us26/actions/workflows/install.yml)
-[![Test](https://github.com/nogibjj/IDS-Week4_MiniProject_us26/actions/workflows/test.yml/badge.svg)](https://github.com/nogibjj/IDS-Week4_MiniProject_us26/actions/workflows/test.yml)
-[![Black Formatter](https://github.com/nogibjj/IDS-Week4_MiniProject_us26/actions/workflows/black.yml/badge.svg)](https://github.com/nogibjj/IDS-Week4_MiniProject_us26/actions/workflows/black.yml)
-[![Lint](https://github.com/nogibjj/IDS-Week4_MiniProject_us26/actions/workflows/ruff.yml/badge.svg)](https://github.com/nogibjj/IDS-Week4_MiniProject_us26/actions/workflows/ruff.yml)
+# Cloud-hosted notebook
 
 
 # Overview   
 
-### Using a single-dimension matrix
-
-##### Specifying a single variable to create a single-dimension matrix.
-
-For example, the following workflow defines the variable version of python with the values [3.8,3.9,3.11]. The workflow will run three jobs, one for each value in the variable. Each job will access the version value through the matrix.version context and pass the value as node-version to the actions/setup-node action.
-
-<p align="center">
-  <img width="900" src="https://github.com/nogibjj/IDS-Week4_MiniProject_us26/blob/main/Image/py_ver1.png" alt="pyver">
-</p>
-
-
-## Code Description
-
-#### The project structure include the following files:
-		
-1.Jupyter_Notebook folder  that perform descriptive statistics using polars :
-	
- 	  - main.ipynb which contains all the functions to perform mean, mode, median and standard deviation
- 	  - test_graph.ipynb which contains a visualization function to plot count of Universities  vs mean of Industry Income Score based on location
- 	  - test_main.ipynb which test and asserts the true value the function written in main.ipynb and also create a summary report
-
-
-2.Python_Script performing the same descriptive statistics using Polars:
-
- 	  - polar_stats.py which contains all the functions to perform mean, mode, median and standard deviation
- 	  - test_graph.py which contains a visualization function to plot count of Universities  vs mean of Industry Income Score based on location
- 	  - test_stats.py which test and asserts the true value the function written in main.ipynb and also create a summary report
-
-
-
-3.**lib.py** file that shares the common code between the python script and jupyter notebook
-
-					
 		
 4.Makefile with the following:
 
