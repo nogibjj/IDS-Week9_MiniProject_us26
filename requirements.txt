@@ -24,3 +24,5 @@ nbval
 nbqa
 pytest-playwright
 kaleido
+matplotlib
+seaborn
