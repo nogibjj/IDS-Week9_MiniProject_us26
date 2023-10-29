@@ -1,4 +1,5 @@
 # Cloud-hosted notebook
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/gist/udyansachdev1/74accb610cb4973ae78be45a0d48b786/untitled1.ipynb)
 
 
 # Overview   
