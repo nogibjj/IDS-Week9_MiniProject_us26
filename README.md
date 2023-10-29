@@ -2,6 +2,13 @@
 
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/gist/udyansachdev1/74accb610cb4973ae78be45a0d48b786/untitled1.ipynb)
 
+[![Install](https://github.com/nogibjj/IDS-Week9_MiniProject_us26/actions/workflows/install.yml/badge.svg)](https://github.com/nogibjj/IDS-Week9_MiniProject_us26/actions/workflows/install.yml)
+
+[![Test](https://github.com/nogibjj/IDS-Week9_MiniProject_us26/actions/workflows/test.yml/badge.svg)](https://github.com/nogibjj/IDS-Week9_MiniProject_us26/actions/workflows/test.yml)
+
+[![Black Formatter](https://github.com/nogibjj/IDS-Week9_MiniProject_us26/actions/workflows/black.yml/badge.svg)](https://github.com/nogibjj/IDS-Week9_MiniProject_us26/actions/workflows/black.yml)
+
+[![Lint](https://github.com/nogibjj/IDS-Week9_MiniProject_us26/actions/workflows/ruff.yml/badge.svg)](https://github.com/nogibjj/IDS-Week9_MiniProject_us26/actions/workflows/ruff.yml)
 
 Collaborating on a GitHub Gist with a GitHub repository can offer several benefits, depending on your specific use case and requirements:
 
